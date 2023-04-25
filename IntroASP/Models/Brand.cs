@@ -9,5 +9,7 @@ public partial class Brand
 
     public string? Name { get; set; }
 
+    public string? Country { get; set; }
+
     public virtual ICollection<Beer> Beers { get; set; } = new List<Beer>();
 }
